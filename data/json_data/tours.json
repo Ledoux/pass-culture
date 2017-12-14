@@ -1,0 +1,57 @@
+[
+  {
+    "id": "58ed5eb12f793fef3aebf123",
+    "local": {
+      "isAvailable": false,
+      "isShown": false
+    },
+    "modeName": "user",
+    "password": "1ouvrez7Les9Guillemins0",
+    "sortIndex": 0,
+    "userId": "user_Gv3RGscpq"
+  },
+  {
+    "id": "58ed6eb12f793fef1aebf123",
+    "local": {
+      "isAvailable": false,
+      "isShown": false
+    },
+    "modeName" : "active",
+    "password": "1ouvrez7Les9Guillemins1",
+    "sortIndex": 1,
+    "userId": "user_B3zaxtEzl"
+  },
+  {
+    "id": "58ed6eb12f793def3aebf123",
+    "local": {
+      "isAvailable": false,
+      "isShown": false
+    },
+    "modeName": "admin",
+    "password": "1ouvrez7Les9Guillemins2",
+    "sortIndex": 2,
+    "userId": "user_BeaCueupl"
+  },
+  {
+    "id": "58ed6cb12f793fef3aebf124",
+    "local": {
+      "isAvailable": true,
+      "isShown": true
+    },
+    "modeName": "editor",
+    "password": "1ouvrez7Les9Guillemins4",
+    "sortIndex": 4,
+    "userId": "user_Av7RzeZpl"
+  },
+  {
+    "id": "58ed6cb12f793fef3bebf144",
+    "local": {
+      "isAvailable": true,
+      "isShown": true
+    },
+    "modeName": "client",
+    "password": "1ouvrez7Les9Guillemins4",
+    "sortIndex": 4,
+    "userId": "user_H4zRxtYzl"
+  }
+]

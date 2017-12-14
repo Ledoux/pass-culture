@@ -1,0 +1,130 @@
+{
+	"backend": {
+		"domain": "herokuapp.com",
+		"helpersByName": {
+			"heroku": {
+			}
+		},
+		"serversByName": {
+			"express-webrouter": {
+				"abbreviation": "wbr",
+				"docker": {
+					"imagesByName": {
+						"current": {
+							"version": "0.1"
+						}
+					}
+				},
+				"isMain": true,
+				"runsByTypeName": {
+					"development": {
+						"host": "localhost",
+						"name": "development",
+						"port": "5000",
+						"tag": "development-pass-culture-wbr",
+						"url": "http://localhost:5000"
+					},
+					"production": {
+						"abbreviation": "prod",
+						"hasDns": true,
+						"host": "pass-culture.herokuapp.com",
+						"name": "production",
+						"pip": "pip",
+						"subDomain": "pass-culture",
+						"tag": "pass-culture-wbr",
+						"url": "https://pass-culture.herokuapp.com",
+						"virtualName": "PASS_CULTURE_WBR_SERVICE_HOST"
+					},
+					"staging": {
+						"abbreviation": "stg",
+						"hasDns": true,
+						"host": "staging-pass-culture.herokuapp.com",
+						"name": "staging",
+						"pip": "pip",
+						"subDomain": "staging-pass-culture",
+						"tag": "stg-pass-culture-wbr",
+						"url": "https://staging-pass-culture.herokuapp.com",
+						"virtualName": "stg_PASS_CULTURE_WBR_SERVICE_HOST"
+					}
+				}
+			}
+		}
+	},
+	"frontend": {
+		"run": {
+			"host": "localhost",
+			"name": "development",
+			"port": "5000",
+			"tag": "development-pass-culture-wbr",
+			"url": "http://localhost:5000"
+		},
+		"scssExclude": "/node_modules\\/(?!transactions-).*/",
+		"server": {
+			"abbreviation": "wbr",
+			"docker": {
+				"imagesByName": {
+					"current": {
+						"version": "0.1"
+					}
+				}
+			},
+			"isMain": true,
+			"runsByTypeName": {
+				"development": {
+					"host": "localhost",
+					"name": "development",
+					"port": "5000",
+					"tag": "development-pass-culture-wbr",
+					"url": "http://localhost:5000"
+				},
+				"production": {
+					"abbreviation": "prod",
+					"hasDns": true,
+					"host": "pass-culture.herokuapp.com",
+					"name": "production",
+					"pip": "pip",
+					"subDomain": "pass-culture",
+					"tag": "pass-culture-wbr",
+					"url": "https://pass-culture.herokuapp.com",
+					"virtualName": "PASS_CULTURE_WBR_SERVICE_HOST"
+				},
+				"staging": {
+					"abbreviation": "stg",
+					"hasDns": true,
+					"host": "staging-pass-culture.herokuapp.com",
+					"name": "staging",
+					"pip": "pip",
+					"subDomain": "staging-pass-culture",
+					"tag": "stg-pass-culture-wbr",
+					"url": "https://staging-pass-culture.herokuapp.com",
+					"virtualName": "stg_PASS_CULTURE_WBR_SERVICE_HOST"
+				}
+			}
+		},
+		"serverName": "express-webrouter"
+	},
+	"iconUrl": "https://raw.githubusercontent.com/Ledoux/teleport-transactions-frontend/master/teleport-transactions-frontend.png",
+	"isPlatform": true,
+	"templateNames": [
+		"teleport-webpack-react-rc",
+		"teleport-express-webrouter-rc",
+		"teleport-heroku-rc",
+		"teleport-react-router",
+		"teleport-redux-saga",
+		"teleport-transactions-backend",
+		"teleport-transactions-data",
+		"teleport-transactions-frontend"
+	],
+	"typesByName": {
+		"development": {
+		},
+		"production": {
+			"abbreviation": "prod",
+			"hasDns": true
+		},
+		"staging": {
+			"abbreviation": "stg",
+			"hasDns": true
+		}
+	}
+}
